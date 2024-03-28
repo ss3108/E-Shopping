@@ -10,7 +10,7 @@ const NewCollections = () => {
       <div className="collections">
         {new_collections.map((item, i) => {
           return (
-            <item
+            <Item
               key={i}
               id={item.id}
               name={item.name}
