@@ -1,6 +1,7 @@
 import React from "react";
 import "./NewCollections.css";
 import new_collections from "./../Assets/new_collections";
+//import {Item} from 'semantic-ui-react';
 
 const NewCollections = () => {
   return (
@@ -17,7 +18,7 @@ const NewCollections = () => {
               image={item.image}
               new_price={item.new_price}
               old_price={item.old_price}
-            />
+              />
           );
         })}
       </div>
